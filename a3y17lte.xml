@@ -7,6 +7,7 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="samsungexynos7870" />
+    <remote fetch="https://github.com/debie-A320FL" name="debie" />
 	
     <!-- Device -->
     <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="samsungexynos7870" revision="crdroid" />

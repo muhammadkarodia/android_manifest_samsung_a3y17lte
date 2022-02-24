@@ -10,11 +10,11 @@
     <remote fetch="https://github.com/debie-A320FL" name="debie" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="debie" revision="crdroid" />
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="debie" revision="aosp" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="samsungexynos7870" revision="common" />

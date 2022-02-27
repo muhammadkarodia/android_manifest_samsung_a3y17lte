@@ -23,4 +23,4 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ap
 2019 @Astrako
 
 ## Contact
-Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
+Telegram support group: https://t.me/joinchat/EjsGTkzDb8zJ6QnAUZyAEA

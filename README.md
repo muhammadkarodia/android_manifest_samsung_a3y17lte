@@ -43,7 +43,9 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ba
 
 ## Credits
 2019 @Astrako
+
 2020 @Martin
+
 2021-22 @debie @gonic
 
 ## Contact

@@ -2,8 +2,10 @@
 
 Before starting check [hardware requirement](https://source.android.com/setup/build/requirements)
 
+### Installing dependencies and Repo
 This is for informational purposes only, without any guarantee, you may need extra packages
-### Installing dependencies and Repo from [CrDroid README](https://github.com/crdroidandroid/android)
+
+The following is from [CrDroid README](https://github.com/crdroidandroid/android)
 Some complements can be found [here](https://source.android.com/setup/build/initializing) too
 
 ```bash

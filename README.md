@@ -1,10 +1,10 @@
 # LineageOS 17.1
 
-### Before starting check [hardware requirement](https://source.android.com/setup/build/requirements)
+Before starting check [hardware requirement](https://source.android.com/setup/build/requirements)
 
-### This is for informational purposes only, without any guarantee, you may need extra packages
+This is for informational purposes only, without any guarantee, you may need extra packages
 ### Installing dependencies and Repo from [CrDroid README](https://github.com/crdroidandroid/android)
-### Some complements can be found [here](https://source.android.com/setup/build/initializing) too
+Some complements can be found [here](https://source.android.com/setup/build/initializing) too
 
 ```bash
 # Several packages are needed in order to build LineageOS & CrDroid

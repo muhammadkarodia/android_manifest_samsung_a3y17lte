@@ -51,4 +51,4 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ba
 2021-22 @debie @gonic
 
 ## Contact
-Telegram support group : *will be shared in June or July 2022*
+Telegram support group : https://t.me/+8qvqA0S2lmFiNGVk

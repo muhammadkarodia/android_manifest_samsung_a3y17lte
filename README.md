@@ -57,4 +57,4 @@ In practice, you need to change it to a Google Pixel device (it is what works wi
 2021-22 @debie @gonic
 
 ## Contact
-Telegram support group : https://t.me/+8qvqA0S2lmFiNGVk
+Telegram support group : https://t.me/debieLineageOS

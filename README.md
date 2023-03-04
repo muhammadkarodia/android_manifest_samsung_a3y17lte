@@ -40,7 +40,11 @@ $ git clone https://github.com/debie-A320FL/android_manifest_samsung_a3y17lte.gi
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
+# For 16GB RAM or more
 $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka bacon -j`nproc`
+
+# For 8GB RAM (workaround)
+$ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
 ```
 
 

@@ -59,7 +59,7 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ap
 ### How to pass Safetynet ###
 
 In order to pass Google Safetynet, you need to set a build_fingerprint that match your android security patch as explain in the [MagiskHideProps Readme](https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf/blob/master/README.md#matching-the-android-security-patch-date).
-In practice, you need to change it to a Google Pixel device (it is what works with me). You can find some build_fingerprint in the [Nippon GSI Telegram Channel](https://t.me/nippongsi). Once you found the correct fingerprint, you need to edit the tree to update the buld_fingerprint used (like in [this commit](https://github.com/debie-A320FL/android_device_samsung_universal7870-common/commit/351c6a91a134319a86f42b6d7184a1e3dd0f7d7f)).
+In practice, you need to change it to a Google Pixel device (it is what works with me). You can find some build_fingerprint in the [Nippon GSI Telegram Channel](https://t.me/nippongsi). Once you found the correct fingerprint, you need to edit the tree to update the build_fingerprint used (like in [this commit](https://github.com/debie-A320FL/android_device_samsung_universal7870-common/commit/351c6a91a134319a86f42b6d7184a1e3dd0f7d7f)).
 
 ## Credits
 2019 @Astrako

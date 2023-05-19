@@ -36,8 +36,16 @@ $ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.
 # Clone my local repo
 $ git clone https://github.com/debie-A320FL/android_manifest_samsung_a3y17lte.git -b lineage .repo/local_manifests
 
-# Sync
+# Sync official Github repo
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+
+# Pull latest unofficial changes from Gerrit : https://review.lineageos.org/q/branch:lineage-17.1
+  #  Since only security patch up to february 2023 has been published on Github
+  #  you need to apply patchs from Gerrit to use latest security fixes
+$ . build/envsetup.sh
+  #   Apply the patchs months by months in chronological order (here March 2023 for instance)
+  #   where Q_asb_2023-03 is the name of the topic dedicated to it on Gerrrit
+$ repopick -t Q_asb_2023-03
 
 # Build
 # For 16GB RAM or more

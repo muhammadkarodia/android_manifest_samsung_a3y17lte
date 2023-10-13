@@ -28,7 +28,7 @@ $ chmod a+x ~/bin/repo
 
 ```bash
 # Create dirs
-$ mkdir lineage ; cd lineage
+$ mkdir lineage17 ; cd lineage17
 
 # Init repo
 $ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.1
@@ -48,18 +48,17 @@ $ . build/envsetup.sh
 $ repopick -t Q_asb_2023-03
 
 # Build
-# For 16GB RAM or more
 $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka bacon -j`nproc`
 
-# For 8GB RAM (workaround)
-$ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
 ```
-
 
 ### How to pass Safetynet ###
 
-In order to pass Google Safetynet, you need to set a build_fingerprint that match your android security patch as explain in the [MagiskHideProps Readme](https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf/blob/master/README.md#matching-the-android-security-patch-date).
-In practice, you need to change it to a Google Pixel device (it is what works with me). You can find some build_fingerprint in the [Nippon GSI Telegram Channel](https://t.me/nippongsi). Once you found the correct fingerprint, you need to edit the tree to update the build_fingerprint used (like in [this commit](https://github.com/debie-A320FL/android_device_samsung_universal7870-common/commit/351c6a91a134319a86f42b6d7184a1e3dd0f7d7f)).
+You need to modify the android_framework_base repo and use my commits from August 10 2023 share [here](https://github.com/debie-A320FL/android_frameworks_base/commits/59f008284014286b0d534310688ad946a96633b4).
+
+### Extra features ###
+
+Additionnal features such as Signature Spoofing support are set in a android_X repo. Check my personnal repositories to find them ;).
 
 ## Credits
 2019 @Astrako
@@ -67,6 +66,8 @@ In practice, you need to change it to a Google Pixel device (it is what works wi
 2020 @Martin
 
 2021-22 @debie @gonic
+
+2023 @debie
 
 ## Contact
 Telegram support group : https://t.me/debieLineageOS

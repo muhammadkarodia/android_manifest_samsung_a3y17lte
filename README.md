@@ -54,7 +54,7 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ba
 
 ### How to pass Safetynet ###
 
-You need to modify the android_framework_base repo and use my commits from August 10 2023 share [here](https://github.com/debie-A320FL/android_frameworks_base/commits/59f008284014286b0d534310688ad946a96633b4).
+You need to modify the android_framework_base repo and use my commits from August 10 2023 shared [here](https://github.com/debie-A320FL/android_frameworks_base/commits/59f008284014286b0d534310688ad946a96633b4).
 
 ### Extra features ###
 

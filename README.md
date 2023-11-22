@@ -9,6 +9,16 @@ The following is from [CrDroid README](https://github.com/crdroidandroid/android
 Some complements can be found [here](https://source.android.com/setup/build/initializing) too.
 
 ```bash
+#for linode:
+#login as root using lish (20.04 lts)
+
+$ adduser mk #set add. info.
+$ adduser mk sudo
+$ #visudo
+$ exit
+$ login mk
+$ sudo apt update
+
 # Several packages are needed in order to build LineageOS & CrDroid
 $ sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 
@@ -22,6 +32,13 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 # Make Repo executable
 $ chmod a+x ~/bin/repo
+
+#symlink python and add git credentials
+
+sudo ln -s /usr/bin/python3 /usr/bin/python
+#400M > apt
+git config --global user.name Name Surname
+git config --global user.email me@example.com
 ```
 
 ### How to build ###
@@ -34,7 +51,7 @@ $ mkdir lineage17 ; cd lineage17
 $ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.1
 
 # Clone my local repo
-$ git clone https://github.com/debie-A320FL/android_manifest_samsung_a3y17lte.git -b lineage .repo/local_manifests
+$ git clone https://github.com/muhammadkarodia/android_manifest_samsung_a3y17lte.git .repo/local_manifests
 
 # Sync official Github repo
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`

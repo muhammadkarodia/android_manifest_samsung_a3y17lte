@@ -46,7 +46,7 @@ git config --global user.email me@example.com
 $ mkdir lineage17 ; cd lineage17
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/muhammadkarodia/android.git -b lineage-17.1
+$ repo init --depth=1 -u https://github.com/muhammadkarodia/android.git
 
 # Clone my local repo
 $ git clone https://github.com/muhammadkarodia/android_manifest_samsung_a3y17lte.git .repo/local_manifests

@@ -12,7 +12,6 @@ Some complements can be found [here](https://source.android.com/setup/build/init
 
 $ adduser mk #set add. info. 20lts
 $ adduser mk sudo
-$ #visudo
 $ exit
 $ login mk
 $ sudo apt update
@@ -37,6 +36,9 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
 #400M > apt
 git config --global user.name Name Surname
 git config --global user.email me@example.com
+git config --global credential.helper "cache --timeout=86400"
+#clone a repo
+sudo reboot
 ```
 
 ### How to build ###

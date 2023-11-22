@@ -9,10 +9,8 @@ The following is from [CrDroid README](https://github.com/crdroidandroid/android
 Some complements can be found [here](https://source.android.com/setup/build/initializing) too.
 
 ```bash
-#for linode:
-#login as root using lish (20.04 lts)
 
-$ adduser mk #set add. info.
+$ adduser mk #set add. info. 20lts
 $ adduser mk sudo
 $ #visudo
 $ exit

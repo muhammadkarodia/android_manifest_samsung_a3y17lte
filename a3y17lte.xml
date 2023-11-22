@@ -16,8 +16,8 @@
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="mk" revision="aosp-oc_test" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="a3y17lte" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="common" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="mk" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="mk" revision="common" />
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="mk" revision="lineage-17.1" />

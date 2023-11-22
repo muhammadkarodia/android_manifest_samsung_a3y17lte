@@ -6,7 +6,6 @@
     -->
 
     <!-- Remote -->
-    <remote fetch="https://github.com/samsungexynos7870" name="a3y17lte" />
     <remote fetch="https://github.com/muhammadkaroda" name="mk" />
 	
     <!-- Device -->
@@ -21,6 +20,6 @@
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="common" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="lineage-17.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="mk" revision="lineage-17.1" />
 		
 </manifest>

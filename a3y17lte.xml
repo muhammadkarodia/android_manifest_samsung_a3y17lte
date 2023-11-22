@@ -22,14 +22,5 @@
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="lineage-17.1" />
-    
-    
-   <!-- Extra : Fdroid Privileged Extension-->
-   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
-  
-   <project path="packages/apps/F-DroidPrivilegedExtension"
-            name="privileged-extension.git" remote="fdroid"
-            revision="refs/tags/0.2.13" />
-
 		
 </manifest>
